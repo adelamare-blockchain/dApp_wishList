@@ -102,91 +102,9 @@ function buyItem(address _for, uint16 _itemId) external payable;
 function getWishList(address _of) external view returns(Item[] memory);
 ```
 
-Certainly. I'll enhance the README to make it even more attractive and professional. Here's an improved version:
-markdownCopy<div align="center">
-<img src="https://your-logo-url-here.com/wishlist-logo.svg" alt="WishList dApp Logo" width="200"/>
-
-# WishList dApp
-
-[![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.24-363636?style=for-the-badge&logo=solidity&logoColor=white)](https://docs.soliditylang.org/en/v0.8.24/)
-[![Hardhat](https://img.shields.io/badge/Built%20with-Hardhat-FFDB1C?style=for-the-badge&logo=hardhat&logoColor=white)](https://hardhat.org/)
-[![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-A decentralized application for creating and managing wish lists on the blockchain. Empower your gifting experience with transparency and security.
-
-[Explore Demo](https://your-demo-url.com) • [Report Bug](https://github.com/yourusername/wishlist-dapp/issues) • [Request Feature](https://github.com/yourusername/wishlist-dapp/issues)
-
-</div>
-
-## 🌟 Features
-
-- 📝 Create and manage personal wish lists on the blockchain
-- 🎁 Add items with names, descriptions, and prices
-- 👀 View wish lists of friends and family
-- 💰 Purchase items from others' wish lists securely
-- 🔒 Transparent and tamper-proof transactions
-- 🌐 Cross-platform compatibility (Desktop & Mobile)
-
-## 🛠️ Tech Stack
-
-### Backend
-
-- Solidity ^0.8.24
-- Hardhat 2.22.5
-- OpenZeppelin Contracts 5.0.2
-- Ethers.js 6.4.0
-
-### Frontend
-
-- Next.js 14.2.5
-- React 18
-- TailwindCSS 3.4.1
-- RainbowKit 2.1.3
-- wagmi 2.12.0
-
-## 🏗️ Project Structure
-
-```mermaid
-wishlist-dapp/
-├── backend/
-│ ├── contracts/
-│ │ └── WishList.sol
-│ ├── test/
-│ │ └── WishList.test.js
-│ ├── scripts/
-│ │ └── deploy.js
-│ ├── hardhat.config.js
-│ └── package.json
-├── frontend/
-│ ├── pages/
-│ ├── components/
-│ ├── styles/
-│ └── package.json
-└── README.md
-```
-
-## 📜 Smart Contract
-
-The `WishList.sol` contract is the backbone of our dApp, enabling users to:
-
-1. Add items to their wish list
-2. Buy items from others' wish lists
-3. Retrieve wish list data
-
-### Key Functions
-
-```solidity
-function addToWishList(string calldata _name, uint256 _price) external;
-function buyItem(address _for, uint16 _itemId) external payable;
-function getWishList(address _of) external view returns(Item[] memory);
-```
-
 ## 🚀 Deployed on Polygon AMOY testnet:
 
-[**🔍 View full contract on Polygonscan**](https://amoy.polygonscan.com/address/0x6855a7f660BeC65AA7F29A0545bF914a806D123d#code)
+🔍 [**View full contract on Polygonscan**](https://amoy.polygonscan.com/address/0x6855a7f660BeC65AA7F29A0545bF914a806D123d#code)
 
 ## 🖥️ Frontend
 
@@ -210,8 +128,8 @@ cd wishlist-dapp
 2. Install dependencies
 
 ```sh
-cd backend && npm install
-cd ../frontend && npm install
+cd backend && yarn
+cd ../frontend && yarn
 ```
 
 3. Set up environment variables (refer to `.env.example` in both directories)
@@ -306,6 +224,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - TailwindCSS for utility-first CSS framework
 
 <div align="center">
-  Made with ❤️ by Antoine delamare(https://github.com/adelamare-blockchain)
+  Made with ❤️ by Antoine Delamare (https://github.com/adelamare-blockchain)
 </div>
-```
