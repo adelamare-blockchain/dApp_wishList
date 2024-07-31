@@ -16,7 +16,7 @@ A decentralized application for creating and managing wish lists on the blockcha
   <img src="./frontend/public/Screenshots/homePage.png" alt="WishList Homepage" width="60%"/>
 </div>
 
-[Explore Demo](https://your-demo-url.com) • [Report Bug](https://github.com/adelamare-blockchain/dApp_wishList/issues) • [Request Feature](https://github.com/adelamare-blockchain/dApp_wishList/issues)
+[Explore Demo](https://dapp-wishlist.vercel.app/) • [Report Bug](https://github.com/adelamare-blockchain/dApp_wishList/issues) • [Request Feature](https://github.com/adelamare-blockchain/dApp_wishList/issues)
 
 </div>
 
