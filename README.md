@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/logo.svg" alt="WishList dApp Logo" width="200"/>
+  <img src="./frontend/public/logo.svg" alt="WishList dApp Logo" width="200"/>
 
 # WishList dApp
 
@@ -11,6 +11,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 A decentralized application for creating and managing wish lists on the blockchain. Empower your gifting experience with transparency and security.
+
+<div align="center">
+  <img src="./frontend/public/Screenshots/homePage.png" alt="WishList Homepage" width="45%"/>
+  <img src="./frontend/public/Screenshots/addToWhiteList.png" alt="Add Item to WishList" width="45%"/>
+</div>
 
 [Explore Demo](https://your-demo-url.com) • [Report Bug](https://github.com/adelamare-blockchain/dApp_wishList/issues) • [Request Feature](https://github.com/adelamare-blockchain/dApp_wishList/issues)
 
@@ -65,7 +70,7 @@ A decentralized application for creating and managing wish lists on the blockcha
 - Hardhat Network Helpers
 - Solidity Coverage
 
-## 🏗️ Project Structure
+## 🏗️ Architecture
 
 ```sh
 wishlist-dapp/
@@ -102,7 +107,7 @@ function buyItem(address _for, uint16 _itemId) external payable;
 function getWishList(address _of) external view returns(Item[] memory);
 ```
 
-## 🚀 Deployed on Polygon AMOY testnet:
+## 🚀 Deployed on Polygon AMOY testnet
 
 🔍 [**View full contract on Polygonscan**](https://amoy.polygonscan.com/address/0x6855a7f660BeC65AA7F29A0545bF914a806D123d#code)
 
@@ -201,11 +206,11 @@ yarn run build
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://your-image-url-here.com/screenshot1.png" alt="WishList Homepage" width="45%"/>
-  <img src="https://your-image-url-here.com/screenshot2.png" alt="Add Item to WishList" width="45%"/>
+  <img src="./frontend/public/Screenshots/homePage.png" alt="WishList Homepage" width="45%"/>
+  <img src="./frontend/public/Screenshots/addToWhiteList.png" alt="Add Item to WishList" width="45%"/>
 </div>
 <div align="center">
-  <img src="https://your-image-url-here.com/screenshot3.png" alt="View Friend's WishList" width="45%"/>
+  <img src="./frontend/public/Screenshots/getWhiteList.png" alt="View Friend's WishList" width="45%"/>
 </div>
 
 ## 🤝 Contributing
